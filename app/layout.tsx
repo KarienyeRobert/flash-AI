@@ -29,7 +29,7 @@ export default function RootLayout({
         <html lang="en">
         <head>
             {/* AdSense Meta Tag for Verification */}
-            <meta name="google-adsense-account" content="ca-pub-3130289951665725" />
+            <meta name="google-adsense-account" content="ca-pub-3130289951665725"/>
             <title>Flash App</title>
         </head>
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
