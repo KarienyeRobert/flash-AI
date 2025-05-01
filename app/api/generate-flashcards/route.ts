@@ -40,6 +40,7 @@ export async function POST(req: Request) {
         );
 
         const data = await response.json();
+        console.log("Gemini API Response:", data); // Log the entire response
 
         if (!data || !data.candidates || data.candidates.length === 0) {
             return NextResponse.json({ error: "No response from AI" }, { status: 500 });
